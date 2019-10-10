@@ -11,4 +11,15 @@ spring:
   h2:
     console:
       enabled: true
-
+  security:
+    user:
+      name: user
+      password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: beans,env
+  endpoint:
+    info:
+      enabled: true
