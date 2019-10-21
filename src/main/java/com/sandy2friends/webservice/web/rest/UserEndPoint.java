@@ -40,7 +40,7 @@ public class UserEndPoint {
         return ResponseEntity.ok(userService.getUser(userId));
     }
 
-    @PostMapping(consumes = {"application/xml","application/json"})
+    @PostMapping
     public ResponseEntity<UserDTO> saveUser(
             @RequestBody(required = true) UserDTO user
     ) throws URISyntaxException {

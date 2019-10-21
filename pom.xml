@@ -99,7 +99,7 @@
                     <apiSources>
                         <apiSource>
                             <springmvc>true</springmvc>
-                            <locations>com.sandy2friends.web.rest</locations>
+                            <locations>com.sandy2friends.webservice.web.rest</locations>
                             <info>
                                 <title>REST API</title>
                                 <version>1.0</version>
