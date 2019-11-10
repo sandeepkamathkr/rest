@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import java.util.Locale;
 
 @EnableSwagger2
-@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
+@SpringBootApplication
 public class RestApplication {
 
     public static void main(String[] args) {
