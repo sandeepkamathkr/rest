@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice;
+package com.sandeepkamathkr.webservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

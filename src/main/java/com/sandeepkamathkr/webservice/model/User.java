@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.model;
+package com.sandeepkamathkr.webservice.model;
 
 import lombok.*;
 

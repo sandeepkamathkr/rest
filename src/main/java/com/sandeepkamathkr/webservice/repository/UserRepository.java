@@ -1,6 +1,6 @@
-package com.sandy2friends.webservice.repository;
+package com.sandeepkamathkr.webservice.repository;
 
-import com.sandy2friends.webservice.model.User;
+import com.sandeepkamathkr.webservice.model.User;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

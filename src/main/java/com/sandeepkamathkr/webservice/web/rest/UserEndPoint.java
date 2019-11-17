@@ -1,7 +1,7 @@
-package com.sandy2friends.webservice.web.rest;
+package com.sandeepkamathkr.webservice.web.rest;
 
-import com.sandy2friends.webservice.dto.UserDTO;
-import com.sandy2friends.webservice.service.UserService;
+import com.sandeepkamathkr.webservice.dto.UserDTO;
+import com.sandeepkamathkr.webservice.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;

@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.dto;
+package com.sandeepkamathkr.webservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
