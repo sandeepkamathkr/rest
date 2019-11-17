@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.web.error;
+package com.sandeepkamathkr.webservice.web.error;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;

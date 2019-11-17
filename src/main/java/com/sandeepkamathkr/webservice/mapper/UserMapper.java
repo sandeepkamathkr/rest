@@ -1,7 +1,7 @@
-package com.sandy2friends.webservice.mapper;
+package com.sandeepkamathkr.webservice.mapper;
 
-import com.sandy2friends.webservice.dto.UserDTO;
-import com.sandy2friends.webservice.model.User;
+import com.sandeepkamathkr.webservice.dto.UserDTO;
+import com.sandeepkamathkr.webservice.model.User;
 
 import java.util.function.Function;
 

@@ -1,9 +1,9 @@
-package com.sandy2friends.webservice.service;
+package com.sandeepkamathkr.webservice.service;
 
-import com.sandy2friends.webservice.dto.UserDTO;
-import com.sandy2friends.webservice.mapper.UserMapper;
-import com.sandy2friends.webservice.model.User;
-import com.sandy2friends.webservice.repository.UserRepository;
+import com.sandeepkamathkr.webservice.dto.UserDTO;
+import com.sandeepkamathkr.webservice.repository.UserRepository;
+import com.sandeepkamathkr.webservice.mapper.UserMapper;
+import com.sandeepkamathkr.webservice.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

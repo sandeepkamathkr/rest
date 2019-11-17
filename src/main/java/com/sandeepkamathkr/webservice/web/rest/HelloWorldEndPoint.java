@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.web.rest;
+package com.sandeepkamathkr.webservice.web.rest;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.MessageSource;

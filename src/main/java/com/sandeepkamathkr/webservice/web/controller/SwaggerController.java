@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.web.controller;
+package com.sandeepkamathkr.webservice.web.controller;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.sandy2friends.webservice.config;
+package com.sandeepkamathkr.webservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

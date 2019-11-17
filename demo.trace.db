@@ -1021,7 +1021,7 @@ insert into user values(1,"Sandeep Kamath","sandy2friends",06/10/2019) [42122-19
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:37:36 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Sandeep Kamath" not found; SQL statement:
 insert into USER values (1,"Sandeep Kamath","sandy2friends",06/10/2019) [42122-199]
@@ -1071,7 +1071,7 @@ insert into USER values (1,"Sandeep Kamath","sandy2friends",06/10/2019) [42122-1
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:38:44 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "Sandeep Kamath" not found; SQL statement:
 insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"Sandeep Kamath","sandy2friends",06/10/2019) [42122-199]
@@ -1121,7 +1121,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"Sandeep Kamath","sand
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:39:16 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "SandeepKamath" not found; SQL statement:
 insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy2friends",06/10/2019) [42122-199]
@@ -1171,7 +1171,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:51:10 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "SandeepKamath" not found; SQL statement:
 insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy2friends",06/10/2019) [42122-199]
@@ -1221,7 +1221,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:51:46 database: flush
 org.h2.message.DbException: General error: "java.lang.IllegalStateException: The file is locked: nio:C:/sandy2friends/backend/rest/demo.mv.db [1.4.199/7]" [50000-199]
 	at org.h2.message.DbException.get(DbException.java:194)
@@ -1324,7 +1324,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:52:39 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column count does not match; SQL statement:
 insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy2friends") [21002-199]
@@ -1373,7 +1373,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,"SandeepKamath","sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 2019-10-06 10:58:23 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLDataException: Cannot parse "DATE" constant "0"; SQL statement:
 insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,'SandeepKamath','sandy2friends',06/10/2019) -- (1, 'SandeepKamath', 'sandy2friends', 0) [22007-199]
@@ -1424,7 +1424,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,'SandeepKamath','sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 Caused by: java.lang.IllegalArgumentException: 0
 	at org.h2.util.DateTimeUtils.parseDateValue(DateTimeUtils.java:366)
 	at org.h2.value.ValueDate.parse(ValueDate.java:73)
@@ -1479,7 +1479,7 @@ insert into USER (ID,NAME,AUTHOR,CREATION_DATE) values (1,'SandeepKamath','sandy
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
-	at com.sandy2friends.webservice.RestApplication.main(RestApplication.java:10)
+	at RestApplication.main(RestApplication.java:10)
 Caused by: java.lang.NumberFormatException: For input string: "06/10/"
 	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
 	at java.base/java.lang.Integer.parseInt(Integer.java:652)
