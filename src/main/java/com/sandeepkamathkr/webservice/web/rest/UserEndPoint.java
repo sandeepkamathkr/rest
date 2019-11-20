@@ -2,6 +2,7 @@ package com.sandeepkamathkr.webservice.web.rest;
 
 import com.sandeepkamathkr.webservice.dto.UserDTO;
 import com.sandeepkamathkr.webservice.service.UserService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
@@ -15,6 +16,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.net.URISyntaxException;
 
+@Api(value = "/users")
 @RequestMapping("/users")
 @RestController()
 @RequiredArgsConstructor

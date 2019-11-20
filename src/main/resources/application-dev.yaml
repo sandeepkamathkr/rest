@@ -23,3 +23,6 @@ management:
   endpoint:
     info:
       enabled: true
+webservice:
+    swagger:
+      default-include-pattern: /(users).*
