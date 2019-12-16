@@ -5,3 +5,4 @@
 - Spring boot configuration.
 - Spring security configuration.
 - Swagger configuration.
+- Error Handling
